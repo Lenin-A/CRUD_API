@@ -7,16 +7,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<!-- PostgreSQL Provider -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0" />
 		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.0" />
-
-		<!-- Entity Framework Tools -->
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0">
-			<PrivateAssets>all</PrivateAssets>
-			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		</PackageReference>
-
-		<!-- Swagger -->
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
 	</ItemGroup>
 
