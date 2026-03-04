@@ -11,10 +11,5 @@ namespace EzovionAPI.Data
 
         public DbSet<Student> Students { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Student>().ToTable("Student");
-        }
-
     }
 }
